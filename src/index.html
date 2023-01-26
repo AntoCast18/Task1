@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/contact.css"> -->
     <title>Mighty Ducks Hockey League</title>
 </head>
+
 <body>
-    <h1>Mighty Ducks Hockey League</h1>
-    <img src="./assets/img/log.png" alt="logo" width="150px" height="150px">
-   <nav>
-    <ul>
-        <li><a href="./index.html">HOME</a></li>
-        <li><a href="./about.html">About MDHL</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-    </ul>
-    </nav>
-    <img src="./assets/img/1.jpg" alt="logo" width="100px" height="100px">
-    <h3>Upcoming Events</h3>
-    <ul>
-        <li> <strong>August 4</strong>
-            MDSL Fundraiser
-        </li>
-        <li>
-            <strong>August 16</strong>
-            Season Kick-off: Meet the Teams
-        </li>
-        <li>
-            <strong>September 1</strong>
-            First Game of the Season (Check Game Schedule for details)
-        </li>
-    </ul>
+    <div class="row">
+        <div class="titulo">
+            <h1>Mighty Ducks Hockey League</h1>
+            <img src="./assets/img/log.png" alt="logo-pag">          
+        </div>
+        <nav>
+            <ul class="horizontal">
+                <li><a href="./index.html" class="myButton">HOME</a></li>
+                <li><a href="./about.html" class="myButton" atributo target=_blank>About MDHL</a></li> <!-- target nos permite que el enlace se abra en una pestaña nueva. -->
+                <li><a href="./contact.html" class="myButton" atributo target=_blank>Contact</a></li>
+            </ul>
+        </nav>
+        <img src="./assets/img/img1.jpg" alt="img1">
+        <h3>Upcoming Events</h3>
+        <ul>
+            <li> <strong>August 4</strong>
+                <a>MDSL Fundraiser</a>
+            </li>
+            <li>
+                <strong>August 16</strong>
+                <a>Season Kick-off: Meet the Teams</a>
+            </li>
+            <li>
+                <strong>September 1</strong>
+                <a>First Game of the Season (Check Game Schedule for details)</a>
+            </li>
+        </ul>
+    </div>
 </body>
+
 </html>
