@@ -1,0 +1,101 @@
+.row {
+    margin: 0px;
+    background: #8C182D;
+    padding: 0px;
+}
+
+/* linear-gradient(to right, #DBD66E, #ca7514); */
+
+div.row div.titulo img {
+    width: 15%;
+    border-radius: 80%;
+    box-shadow: 3px 3px 3px grey;
+    left: 33%;
+    top: 550px;
+    float: left;
+    /*     
+    margin-left: 15px;
+    border-radius: inherit;
+    width: 150px;
+    height: 150px;
+    display: inline-block; */
+}
+
+h1 {
+    color: #dbd567;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 8px 5px 5px #96934B;
+    font-family: cursive;
+}
+
+nav {
+    margin-left: 300px;
+    width: 100%;
+    display: inline;
+}
+
+ul.horizontal {
+    display: inline;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+a {
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myButton {
+    box-shadow: inset 0px 0px 15px 3px #23395e;
+    background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color: #2e466e;
+    border-radius: 17px;
+    border: 1px solid #1f2f47;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 15px;
+    padding: 6px 13px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+    background-color: #415989;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+ul.horizontal li {
+    display: inline;
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    border-start-end-radius: 250px 100px;
+    direction: rtl;
+    margin-left: 100px;
+}
+ul {
+    list-style: circle;
+}
+
+h3 {
+    width: 1000px;
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+p { 
+    text-indent: 25px;
+    text-align: justify;
+  }
