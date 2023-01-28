@@ -1,0 +1,71 @@
+.row {
+    margin: 0px;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    color: azure;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: justify;
+    font-family: cursive;
+    position: absolute;
+}
+
+div.row div.logo img {
+    width: 15%;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px grey;
+    position: relative;
+    top: -100px;
+    left: 1000px;
+}
+
+div.row div.menu img {
+    width: 1150px;
+    border-start-end-radius: 250px 100px;
+    direction: rtl;
+    display: block;
+    margin: 5px;
+}
+
+div.row div.menu nav {
+    top: 450px;
+    position: absolute;
+    margin: 10px;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+h3 {
+    margin: 0px;
+    width: 1000px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+strong {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 200px;
+}
+li {
+    list-style: none;
+}
+p {
+    font-size: small;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    text-align: justify;
+}
+section{
+    top: 550px;
+    display: inline-block;
+    position: absolute;
+   
+}
+
