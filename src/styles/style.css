@@ -33,7 +33,7 @@ h1 {
 div.menu nav {
     position: absolute;
     top: 105px; 
-    left: 105px;
+    left: 205px;
     margin-left: 440px;
     width: 100%;
     display: block;
@@ -49,7 +49,7 @@ ul.horizontal {
     display: inline;
     justify-content: flex-start;
     list-style: none;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 p {
@@ -57,7 +57,6 @@ p {
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 200px;
-    text-align: justify;
 }
 
 .myButton {
@@ -87,7 +86,7 @@ p {
 }
 
 div.row div.menu img {
-    width: 1000px;
+    width: 1200px;
     border-start-end-radius: 250px 100px;
     direction: rtl;
     display: block;
@@ -102,7 +101,7 @@ strong {
 }
 
 h3 {
-    width: 1000px;
+    width: 1200px;
     background-color: black;
     color: white;
     text-align: center;
@@ -137,13 +136,13 @@ li {
 }
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #8b84ee 5%, #05037e 100%);
 	background-color:#ededed;
 	border-radius:6px;
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-	color:#777777;
+	color:#f8f4f4;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
