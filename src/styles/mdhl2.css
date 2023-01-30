@@ -1,6 +1,6 @@
-.row {
+* {
     margin: 0px;
-    padding: 40px;
+    padding: 0px;
     box-sizing: border-box;
 
 }
@@ -15,33 +15,30 @@ h1 {
     position: absolute;
 }
 
-div.row div.logo img {
+div.logo img {
     width: 12%;
     border: 2px solid black;
     box-shadow: 3px 3px 3px grey;
     position: relative;
     top: -100px;
-    left: 1100px;
+    left: 900px;
 }
-
-div.row div.menu img {
-    width: 1200px;
+div.menu img {
+    width: 900px;
     border-start-end-radius: 150px 100px;
     direction: rtl;
     display: block;
-    margin: 5px;
+    margin-left: 100px;
 }
-
-div.row div.menu nav {
-    top: 550px;
-    position: absolute;
-    margin: 10px;
-    -webkit-user-modify: read-write-plaintext-only;
+div.menu nav {
+    top: 500px;
+    position:relative;
+    margin-left: 15px;
 }
 
 h3 {
     margin: 0px;
-    width: 1200px;
+    width: 1300px;
     background-color: black;
     color: white;
     text-align: center;
@@ -61,8 +58,8 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 200px;
 }
-section{
-    top: 650px;
+.section{
+    top: 450px;
     display: inline-block;
     position: absolute;
    
