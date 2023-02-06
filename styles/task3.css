@@ -1,23 +1,26 @@
 * {
-    margin: 5px;
-    padding: 5px;
+    margin: 1px;
+    padding: 1px;
     box-sizing: border-box;
+    /* background: linear-gradient(to right, rgb(198, 158, 247), rgb(87, 104, 150)); */
+}
+
+body {
+    display: block;
     background-image: url("../assets/img/black-neon.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1px;
-
-    /* background: linear-gradient(to right, rgb(198, 158, 247), rgb(87, 104, 150)); */
 }
 
 .bg-1 {
-    height: 20vh;
-    padding-top: 30px;
+    height: 15vh;
+    padding-top: 15px;
     text-align: center;
 }
 
-.t-stroke {
+t-stroke {
     color: transparent;
     -moz-text-stroke-width: 2px;
     -webkit-text-stroke-width: 2px;
@@ -27,17 +30,18 @@
 }
 
 .t-shadow {
-    text-shadow: 15px 30px #8dffcd;
+    text-shadow: 11px 23px #8dffcd;
 }
 
 h1,
 h5 {
     text-align: center;
+    color: rgb(190, 219, 243);
+    font-size: medium;
 }
 
 div.menuindex nav {
     background-image: url("../assets/img/img1.jpg");
-    display: flex;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +50,6 @@ div.menuindex nav {
 
 div.menucont nav {
     background-image: url("../assets/img/img2.jpg");
-    display: flex;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +58,6 @@ div.menucont nav {
 
 div.menu nav {
     background-image: url("../assets/img/img2.jpg");
-    display: flex;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,19 +70,21 @@ h3 {
     text-align: center;
 }
 
-p, b, td{
+p,
+b,
+td {
     color: #ffc477;
     font-size: small;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 300px; 
 }
-strong{
+
+strong {
     color: aqua;
     font-size: small;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 300px; 
+
 }
 
 a {
@@ -161,13 +165,17 @@ div.logo img {
     top: 1px;
 }
 
-li {
-    list-style: none;
+div.list {
+    color: cadetblue;
+}
+
+div.section li {
+    list-style-position: inside;
     color: aqua;
 }
 
-div.list ul li.ruless {
-    list-style: circle;
+div.list ol li ol li {
     text-indent: 80px;
-    color: aqua;
+    color: darkkhaki;
+    list-style-position: inside;
 }
