@@ -1,0 +1,349 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background: linear-gradient(to right, rgb(198, 158, 247), rgb(87, 104, 150)); */
+}
+
+body {
+    display: block;
+    background-image: url("../assets/img/black-neon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    min-height: 79vh;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+label {
+    font-size: 20px;
+    color: rgb(218, 206, 206);
+
+}
+
+input {
+    font-size: 20px;
+    color: lightslategray;
+    background: linear-gradient(to bottom, #b9f3e3 5%, #b2fafa 100%);
+}
+
+th,
+td {
+    border-style: groove;
+    border-color: #96D4D4;
+}
+
+form {
+    margin-left: 150px;
+    padding: 40px;
+}
+
+legend {
+    display: block;
+    margin: 5px;
+    padding: 8px;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+div.pa p {
+    text-align: justify;
+    color: lightslategray;
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
+}
+
+p.form {
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+.boton {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: linear-gradient(to bottom, #8be2cb 5%, #056363 100%);
+    background-color: #74b4a3;
+    border-radius: 5px;
+    border: 1px solid #086648;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 16px 28px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
+    margin-left: 600px;
+}
+
+.boton:hover {
+    background: linear-gradient(to bottom, #8bbebe 5%, #166953 100%);
+    background-color: #397575;
+}
+
+.boton:active {
+    position: relative;
+    top: 1px;
+}
+
+.bg-1 {
+    height: 15vh;
+    padding-top: 15px;
+    text-align: center;
+}
+
+t-stroke {
+    color: transparent;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.t-shadow {
+    text-shadow: 11px 23px #8dffcd;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(190, 219, 243);
+}
+
+h5 {
+    text-align: center;
+    color: rgb(190, 219, 243);
+    font-size: medium;
+}
+
+div.menuindex nav {
+    background-image: url("../assets/img/img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div.menu nav {
+    background-image: url("../assets/img/img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.info2{
+    display: block;
+    margin-left: 200px;
+}
+h3, h2 {
+    background: linear-gradient(to right, rgb(241, 211, 155), rgb(87, 104, 150));
+    color: white;
+    text-align: center;
+}
+
+b,
+tr {
+    color: #ffc477;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section.about {
+   display: block;
+   margin-left: 200px;
+}
+section.about p{
+    color:cadetblue;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section.about strong{
+    color:rgb(240, 245, 245);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+a {
+    color: rgb(215, 247, 223);
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.line {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+div.logo img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 60%;
+    box-shadow: 3px 3px 3px grey;
+    top: 450px;
+    float: right;
+    margin-right: 0%;
+
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 0px 0px #fce2c1;
+    background: linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+    background-color: #ffc477;
+    border-radius: 6px;
+    border: 1px solid #eeb44f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #cc9f52;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+    background-color: #fb9e25;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.activado {
+    box-shadow: inset 0px 1px 0px 0px #fce2c1;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid #eeb44f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #cc9f52;
+}
+
+.activado:hover {
+    background-color: transparent;
+}
+
+.activado:active {
+    position: relative;
+    top: 1px;
+}
+
+div.list {
+    color: cadetblue;
+}
+
+nav a {
+    gap: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    background-color: rgb(194, 220, 188);
+    transition: all 0.5s;
+}
+
+a:hover {
+    transform: scale(1.3) rotate(15deg);
+    color: orange;
+}
+
+.activado {
+    background-color: black;
+    color: white;
+}
+div.prueba{
+    display: inline-block;
+}
+div.section {
+    display: block;
+    margin-left: 200px;
+}
+div.section p{
+    color:cadetblue;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.section strong{
+    color:rgb(240, 245, 245);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+section {
+    display: flex;
+    width: 400px;
+    border-radius: 1rem;
+    transition: all 0.5s;
+}
+
+section:hover {
+    transform: scale(1.2);
+}
+
+section iframe {
+    height: 100%;
+    width: 50%;
+    object-fit: contain;
+    background-color: rgba(255, 166, 0, 0.352);
+    border-radius: 1rem 0 0 1rem;
+}
+
+main section:nth-child(2n) img {
+    background-color: rgba(0, 255, 55, 0.352);
+}
+
+section div{
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section div h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+section div p{
+    padding: 1rem;
+}
